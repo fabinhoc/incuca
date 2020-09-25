@@ -134,7 +134,7 @@ export default {
       }, 1000)
     },
     async getJoke () {
-      await this.$axios.get('joke/').then((response) => {
+      await this.$axios.get('https://geek-jokes.sameerkumar.website/api?format=json').then((response) => {
         this.joke = response.data.joke
       })
     },
