@@ -11,7 +11,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Tell me a joke! Play now!' },
+      { hid: 'keywords', name: 'keywords', content: 'incuca,humor,face,emoji' },
+      { hid: 'author', name: 'author', content: 'Fabio Cruz' },
+      { hid: 'robots', name: 'robots', content: 'index,follow' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

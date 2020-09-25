@@ -38,8 +38,6 @@
 <script>
 
 export default {
-  components: {
-  },
   data () {
     return {
       mouthReaction: this.$store.state.mouthReaction
@@ -54,6 +52,16 @@ export default {
       this.$store.commit('SET_MOUTH_REACTION', 'ungry')
       this.mouthReaction = this.$store.state.mouthReaction
     }
+  },
+  head: {
+    title: 'Start',
+    meta: [
+      {
+        hid: 'Start',
+        name: 'description',
+        content: 'Start to play and see the best geek jokes and see the face reaction'
+      }
+    ]
   }
 }
 </script>

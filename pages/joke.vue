@@ -148,6 +148,16 @@ export default {
       this.mouthReaction = this.$store.state.mouthReaction
       this.$confetti.stop()
     }
+  },
+  head: {
+    title: 'Joke',
+    meta: [
+      {
+        hid: 'Joke',
+        name: 'description',
+        content: 'Start to play and see the best geek jokes and see the face reaction'
+      }
+    ]
   }
 }
 </script>

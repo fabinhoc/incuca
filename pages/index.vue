@@ -38,13 +38,15 @@
 <script>
 
 export default {
-  components: {
-  },
-  data () {
-    return {
-    }
-  },
-  methods: {
+  head: {
+    title: 'Home',
+    meta: [
+      {
+        hid: 'Home',
+        name: 'description',
+        content: 'Start to play and see the best geek jokes and see the face reaction'
+      }
+    ]
   }
 }
 </script>
