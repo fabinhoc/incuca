@@ -54,7 +54,7 @@ export default {
   },
 
   proxy: {
-    '/joke/': { target: 'http://geek-jokes.sameerkumar.website/api?format=json', pathRewrite: { '^/joke/': '' } }
+    '/joke/': { target: 'https://geek-jokes.sameerkumar.website/api?format=json', pathRewrite: { '^/joke/': '' } }
   },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
