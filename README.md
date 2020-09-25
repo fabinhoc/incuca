@@ -28,6 +28,9 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 Nuxtjs é um framework para projetos vue open source com intuito de construir uma aplicação mais simples e organizada.
 
+## Link do Projeto
+https://incuca.vercel.app/
+
 ## O Projeto
 O projeto é um contador de piadas que monitora o sentimento de um emoji, conforme as piadas são lidas o sistema muda o sentimento do emoji até chegar no estado de feliz.
 
