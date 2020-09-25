@@ -102,7 +102,7 @@ export default {
   },
   methods: {
     nextJoke () {
-      this.$axios.get('joke/').then((response) => {
+      this.$axios.get('https://geek-jokes.sameerkumar.website/api?format=json').then((response) => {
         this.joke = response.data.joke
         this.$store.commit('SET_COUNT_JOKE')
 
